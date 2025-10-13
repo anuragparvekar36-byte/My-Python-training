@@ -1,0 +1,123 @@
+COBOL PERFORM Statement Analysis
+==================================================
+Total PERFORM statements: 38
+
+All PERFORM Statements:
+--------------------------------------------------
+1. PERFORM RETURN-TO-PREV-SCREEN
+--------------------------------------------------
+2. PERFORM PROCESS-ENTER-KEY
+--------------------------------------------------
+3. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+4. PERFORM RECEIVE-BILLPAY-SCREEN
+--------------------------------------------------
+5. PERFORM PROCESS-ENTER-KEY
+--------------------------------------------------
+6. PERFORM RETURN-TO-PREV-SCREEN
+--------------------------------------------------
+7. PERFORM CLEAR-CURRENT-SCREEN
+--------------------------------------------------
+8. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+9. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+10. PERFORM READ-ACCTDAT-FILE
+--------------------------------------------------
+11. PERFORM CLEAR-CURRENT-SCREEN
+--------------------------------------------------
+12. PERFORM READ-ACCTDAT-FILE
+--------------------------------------------------
+13. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+14. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+15. PERFORM READ-CXACAIX-FILE
+--------------------------------------------------
+16. PERFORM STARTBR-TRANSACT-FILE
+--------------------------------------------------
+17. PERFORM READPREV-TRANSACT-FILE
+--------------------------------------------------
+18. PERFORM ENDBR-TRANSACT-FILE
+--------------------------------------------------
+19. PERFORM GET-CURRENT-TIMESTAMP
+--------------------------------------------------
+20. PERFORM WRITE-TRANSACT-FILE
+--------------------------------------------------
+21. PERFORM UPDATE-ACCTDAT-FILE
+--------------------------------------------------
+22. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+23. PERFORM POPULATE-HEADER-INFO
+--------------------------------------------------
+24. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+25. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+26. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+27. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+28. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+29. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+30. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+31. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+32. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+33. PERFORM INITIALIZE-ALL-FIELDS
+--------------------------------------------------
+34. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+35. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+36. PERFORM SEND-BILLPAY-SCREEN
+--------------------------------------------------
+37. PERFORM INITIALIZE-ALL-FIELDS
+--------------------------------------------------
+38. PERFORM SEND-BILLPAY-SCREEN.
+--------------------------------------------------
+
+Paragraphs Referenced by PERFORM:
+--------------------------------------------------
+1. CLEAR-CURRENT-SCREEN
+2. ENDBR-TRANSACT-FILE
+3. GET-CURRENT-TIMESTAMP
+4. INITIALIZE-ALL-FIELDS
+5. POPULATE-HEADER-INFO
+6. PROCESS-ENTER-KEY
+7. READ-ACCTDAT-FILE
+8. READ-CXACAIX-FILE
+9. READPREV-TRANSACT-FILE
+10. RECEIVE-BILLPAY-SCREEN
+11. RETURN-TO-PREV-SCREEN
+12. SEND-BILLPAY-SCREEN
+13. STARTBR-TRANSACT-FILE
+14. UPDATE-ACCTDAT-FILE
+15. WRITE-TRANSACT-FILE
+
+All Defined Paragraphs (for reference):
+--------------------------------------------------
+1. CLEAR-CURRENT-SCREEN
+2. END-EVALUATE
+3. END-EXEC
+4. END-IF
+5. ENDBR-TRANSACT-FILE
+6. GET-CURRENT-TIMESTAMP
+7. INITIALIZE-ALL-FIELDS
+8. MAIN-PARA
+9. POPULATE-HEADER-INFO
+10. PROCESS-ENTER-KEY
+11. READ-ACCTDAT-FILE
+12. READ-CXACAIX-FILE
+13. READPREV-TRANSACT-FILE
+14. RECEIVE-BILLPAY-SCREEN
+15. RETURN-TO-PREV-SCREEN
+16. SEND-BILLPAY-SCREEN
+17. STARTBR-TRANSACT-FILE
+18. UPDATE-ACCTDAT-FILE
+19. WRITE-TRANSACT-FILE
+20. WS-MESSAGE
