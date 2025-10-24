@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman Game</title>
+    <style>
+        body { font-family: monospace; background: #f4f4f4; text-align: center; }
+        pre { font-size: 18px; }
+        input[type=text] { font-size: 20px; text-align: center; width: 30px; }
+    </style>
+</head>
+<body>
+    <h1>🎯 Hangman Game</h1>
+    <pre>{{ @app.route("/")
+    def home():
+    hangman_stage = hangman_art.stages[0]  # example
+    return render_template("index.html", hangman=hangman_stage)}}</pre>
+    <h2>{{ current_word }}</h2>
+    <p>{{ message }}</p>
+
+    <form method="POST">
+        <input type="text" name="letter" maxlength="1" required>
+        <button type="submit">Guess</button>
+    </form>
+</body>
+</html>
